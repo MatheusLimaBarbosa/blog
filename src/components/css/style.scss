@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url(_colors.scss);
+@import url(_typography.scss);
+
+body {
+    width: 100%;
+    background-color: #050607;
+}
+
+@import url(_layout.scss);
